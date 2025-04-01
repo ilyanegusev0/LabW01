@@ -1,0 +1,15 @@
+D:\Projects\Visual Studio\LabW01\LabW01\bin\Debug\LabW01.exe.config
+D:\Projects\Visual Studio\LabW01\LabW01\bin\Debug\LabW01.exe
+D:\Projects\Visual Studio\LabW01\LabW01\bin\Debug\LabW01.pdb
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01.csproj.AssemblyReference.cache
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\MainWindow.g.cs
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\App.g.cs
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01_MarkupCompile.cache
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01_MarkupCompile.lref
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\MainWindow.baml
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01.g.resources
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01.Properties.Resources.resources
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01.csproj.GenerateResource.cache
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01.csproj.CoreCompileInputs.cache
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01.exe
+D:\Projects\Visual Studio\LabW01\LabW01\obj\Debug\LabW01.pdb

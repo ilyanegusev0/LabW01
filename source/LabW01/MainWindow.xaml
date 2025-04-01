@@ -1,0 +1,38 @@
+﻿<Window x:Class="LabW01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabW01"
+        mc:Ignorable="d"
+        Title="Лабораторна робота №1. Моноалфавітний шифр підстановки" Height="600" Width="770" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="53*"/>
+        </Grid.ColumnDefinitions>
+        <RichTextBox x:Name="rtbCryptotext" Width="500" Height="510" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" FontSize="14" IsReadOnly="True" FontFamily="Consolas" Grid.ColumnSpan="3">
+            <FlowDocument>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <CheckBox x:Name="cbShowRelpacedOnly" Content="Показати тільки замінені літери" Height="20" Width="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="343,20,0,0" Checked="cbShowRelpacedOnly_Checked" Unchecked="cbShowRelpacedOnly_Unchecked" Grid.Column="2"/>
+        <CheckBox x:Name="cbShowEncryptedOnly" Content="Показати закодований текст" Width="200" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="343,50,0,0" Checked="cbShowEncryptedOnly_Checked" Unchecked="cbShowEncryptedOnly_Unchecked" Grid.Column="2"/>
+        <Button x:Name="btnShowFrequencies" Content="Показати частоти" Height="30" Width="210" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="343,80,0,0" Click="btnShowFrequencies_Click" Grid.Column="2"/>
+        <TextBox x:Name="tbReplaceFrom" HorizontalAlignment="Left" Margin="343,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Grid.Column="2"/>
+        <TextBox x:Name="tbReplaceTo" HorizontalAlignment="Left" Margin="463,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Grid.Column="2"/>
+        <Label Content="Буква у шифрі:" HorizontalAlignment="Left" Margin="343,130,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2"/>
+        <Label Content="Замінити на:" HorizontalAlignment="Left" Margin="463,130,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.363,0.565" Grid.Column="2"/>
+        <ListBox x:Name="lbChanges" HorizontalAlignment="Left" Height="320" Margin="343,200,0,0" VerticalAlignment="Top" Width="130" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="2"/>
+        <Button x:Name="btnAdd" Content="Додати" HorizontalAlignment="Left" Margin="483,200,0,0" VerticalAlignment="Top" Width="70" Height="30" Click="btnAdd_Click" Grid.Column="2"/>
+        <Button x:Name="btnDelete" Content="Видалити" HorizontalAlignment="Left" Margin="483,250,0,0" VerticalAlignment="Top" Width="70" Height="30" Click="btnDelete_Click" Grid.Column="2"/>
+        <Button x:Name="btnExit" Content="Вийти" HorizontalAlignment="Left" Margin="483,490,0,0" VerticalAlignment="Top" Width="70" Height="30" Click="btnExit_Click" Grid.Column="2"/>
+        <Label x:Name="lLanguage" Content="*lLanguage*" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,525,0,0" Grid.Column="2"/>
+        <Label x:Name="lTime" Content="*lTime*" HorizontalAlignment="Left" Margin="10,525,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Content="v1.3" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,525,30,0" Grid.Column="2"/>
+
+    </Grid>
+</Window>
